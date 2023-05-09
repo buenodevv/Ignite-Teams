@@ -10,5 +10,5 @@ export const Message = styled.Text`
 
     font-size: ${({theme})=> theme.FONT_SIZE.SM}px;
     font-family: ${({ theme })=> theme.FONT_FAMILY.REGULAR};
-    color: ${({theme})=> theme.CORES.GRAY_300};
+    color: ${({theme})=> theme.COLOR.GRAY_300};
 `;

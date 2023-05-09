@@ -10,14 +10,14 @@ export const Title = styled.Text`
 
     font-size: ${({ theme }) => theme.FONT_SIZE.GG}px;
     font-family: ${({ theme }) => theme.FONT_FAMILY.BOLD};
-    color: ${({ theme }) => theme.CORES.BRANCO};
+    color: ${({ theme }) => theme.COLOR.WHITE};
     
 `
 export const Subtitle = styled.Text`
     text-align: center;
 
-    font-size: ${({ theme }) => theme.FONT_SIZE.DM}px;
+    font-size: ${({ theme }) => theme.FONT_SIZE.MD}px;
     font-family: ${({ theme }) => theme.FONT_FAMILY.REGULAR};
-    color: ${({ theme }) => theme.CORES.GRAY_400};
+    color: ${({ theme }) => theme.COLOR.GRAY_400};
     
 `

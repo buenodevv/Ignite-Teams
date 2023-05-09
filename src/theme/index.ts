@@ -1,6 +1,6 @@
 export default {
-    CORES: {
-        BRANCO: '#FFFFFF',
+    COLOR: {
+        WHITE: '#FFFFFF',
 
         GREEN_700: '#00875F',
         GREEN_500: '#00B37E',
@@ -22,7 +22,7 @@ export default {
     },
     FONT_SIZE: {
         SM: 14,
-        DM: 16,
+        MD: 16,
         LG: 18,
         GG: 24
     }

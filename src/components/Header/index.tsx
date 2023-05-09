@@ -11,7 +11,7 @@ export function Header({ showBackButton = false }: Props) {
 
         <Container>
             {
-                showBackButton &&
+                    showBackButton &&
                 <BackButton>
                     <BackIcon />
                 </BackButton>

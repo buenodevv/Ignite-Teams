@@ -11,7 +11,7 @@ import { Button } from '@components/Button';
 
 
 export function Groups() {
-  const [groups, setGroups] = useState(['Amigos', 'Familia']);
+  const [groups, setGroups] = useState([]);
 
   return (
     <Container>
@@ -31,10 +31,7 @@ export function Groups() {
         contentContainerStyle={groups.length === 0 && { flex: 1 }}
         ListEmptyComponent={()=> <ListEmpty message="Que tal cadastrar a primeira turma?"/>}
       />
-      <Button 
-      title='Criar nova turma'
-      type='SECUNDARY'
-      />
+     <Button title="Cadastre sua turma" />
     </Container>
   );
 }
