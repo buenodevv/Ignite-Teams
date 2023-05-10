@@ -31,7 +31,10 @@ export function Groups() {
         contentContainerStyle={groups.length === 0 && { flex: 1 }}
         ListEmptyComponent={()=> <ListEmpty message="Que tal cadastrar a primeira turma?"/>}
       />
-     <Button title="Cadastre sua turma" />
+      <Button 
+      title='Criar nova turma'
+      type='SECUNDARY'
+      />
     </Container>
   );
 }
