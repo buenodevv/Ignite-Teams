@@ -11,7 +11,7 @@ import { Button } from '@components/Button';
 
 
 export function Groups() {
-  const [groups, setGroups] = useState([]);
+  const [groups, setGroups] = useState(['Amigos','Familia']);
 
   return (
     <Container>
@@ -33,7 +33,6 @@ export function Groups() {
       />
       <Button 
       title='Criar nova turma'
-      type='SECUNDARY'
       />
     </Container>
   );
