@@ -11,7 +11,7 @@ import { Button } from '@components/Button';
 
 
 export function Groups() {
-  const [groups, setGroups] = useState(['Amigos','Familia']);
+  const [groups, setGroups] = useState([]);
 
   return (
     <Container>
